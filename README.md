@@ -28,7 +28,34 @@ But, how to win? Some notes:
 
 ### Installation:
 
+So as mentioned earlier, its built with ruby and shoes. So you need to have both of them. I will assume that you know how and from where to install ruby. For shoes, you need to install `shoes 3.3.1` from [here](http://shoesrb.com/downloads/). You can choose from the os distro that you have. PS: It's tested on Linux/Ununtu only. However, it will run appropriately on any Linux and Mac atleast. Can't be sure about Windows. 
 
 
 ### Usage:
+
+You can either run `FinalPlanetMainClient.shy` from `open my shy script` option or you can choose `open an app` and select the `FinalPlanetWarsProject/Game.rb`.
+
+##### Single Player:
+
+Once the the interface opens, I guess rest of the things are intutive. You can check the controls in `controls` option: 
+
+* To attack: Keep Pressed `s`, click the source planet, then click the target planet, and then release `s`. When source planet is selected 
+* To exit: `Cntrl + C`
+* To clear selection: `Esc`
+
+One you choose `Single Player`: you will get option to choose from one of the two maps and choose one of the opponent bot. Each of these bots work on a simple strategy to defeat you.
+
+
+##### Multi Player:
+
+To run on multi-player, you need to run the server script `main_server_script.tb`. Make sure that your port `4000` is free.
+
+If something like this appears: `Server started at -> 192.168.2.6:4000`. The server has started. 
+
+Next up, open the shoes game and go to `multiplayer` option. Enter the server address as `ip:port` like `192.168.2.6:4000`. If you are playing for the first time, it will ask you to enter a name. Your status is online now! Later, in there you will be able to see the available players online. You can choose one of them and request to play. If the opponent accepts it, the game starts.
+
+
+---
+
+You can contact me at harshjtrivedi94@gmail.com in case of any problem.
 
