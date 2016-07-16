@@ -33,7 +33,7 @@ So as mentioned earlier, its built with ruby and shoes. So you need to have both
 
 ### Usage:
 
-You can either run `FinalPlanetMainClient.shy` from `open my shy script` option or you can choose `open an app` and select the `FinalPlanetWarsProject/Game.rb`.
+You can choose `open an app` from the shoes interface and either run `FinalPlanetMainClient.shy` or `FinalPlanetWarsProject/Game.rb`.
 
 ##### Single Player:
 
