@@ -140,7 +140,7 @@ class Server
 end
  
 local_ip = Socket.ip_address_list.detect{|intf| intf.ipv4_private?}.ip_address
-#OR
+puts "Server started at -> #{local_ip}:4000"
 #local_ip = UDPSocket.open {|s| s.connect("64.233.187.99", 1); s.addr.last}
 
 Server.new( local_ip , 4000 )
